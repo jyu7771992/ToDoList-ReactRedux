@@ -1,0 +1,28 @@
+const ADD_TODO = 'todos/todoAdded';
+const TODO_TOGGLE = 'todos/todoToggled';
+const COLOR_SELECT = 'todos/colorSelected';
+const DELETE_TODO = 'todos/todoDeleted';
+const ALL_COMPLETE_TODO = 'todos/allCompleted';
+const CLEAR_TODO = 'todos/completedCleared';
+const STATUS_ALL = 'STATUS_ALL';
+const STATUS_ACTIVE = 'STATUS_ACTIVE';
+const STATUS_COMPLETE = 'STATUS_COMPLETE';
+
+const FILTER_ADD_COLOR = 'FILTER_ADD_COLOR';
+const FILTER_REMOVE_COLOR = 'FILTER_REMOVE_COLOR';
+const FILTER_CHANGE_STATUS = 'FILTER_CHANGE_STATUS';
+
+export default {
+  ADD_TODO,
+  TODO_TOGGLE,
+  COLOR_SELECT,
+  DELETE_TODO,
+  ALL_COMPLETE_TODO,
+  CLEAR_TODO,
+  STATUS_ALL,
+  STATUS_ACTIVE,
+  STATUS_COMPLETE,
+  FILTER_ADD_COLOR,
+  FILTER_REMOVE_COLOR,
+  FILTER_CHANGE_STATUS,
+};

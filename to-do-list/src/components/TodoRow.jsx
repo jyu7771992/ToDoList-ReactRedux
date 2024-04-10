@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TodoListItem = ({ todo, onColorChange, onCompletedChange, onDelete }) => {
+const TodoRow = ({ todo, onColorChange, onCompletedChange, onDelete }) => {
   const handleCompletedChanged = (e) => {
     onCompletedChange(e.target.checked);
   };
